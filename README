@@ -1,0 +1,5 @@
+This is a web application that can be used to intercept Moodle Docs links and either
+forward them to Moodle docs or redirect them to alternative content.
+
+The app is designed to hook in to the MediaWiki style URLs used for 
+Moodle Docs.

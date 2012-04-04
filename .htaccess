@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /~mhughes2k/myplacedocs/
+RewriteRule ^admin/ - [L]
+RewriteRule ^([0-9]+)/([a-zA-Z0-9]+)/(.*)$ redirect.php?lang=$2&version=$1&page=$3 [L]
+#RewriteRule ^([a-zA-Z0-9]+)/(.*)$ redirect.php?lang=$1&page=$2 [L]
+#RewriteRule ^([0-9]+)/(.*)$ redirect.php?version=$1&page=$2 [L]
+#RewriteRule ^([a-zA-Z0-9]+)$ redirect.php?page=$1 [L]
